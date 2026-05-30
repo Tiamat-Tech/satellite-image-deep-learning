@@ -1424,8 +1424,6 @@ Oil is stored in tanks at many points between extraction and sale, and the volum
 
 - [SubpixelCircleDetection](https://github.com/anttad/SubpixelCircleDetection) -> CIRCULAR-SHAPED OBJECT DETECTION IN LOW RESOLUTION SATELLITE IMAGES
 
-- [oil_storage-detector](https://github.com/TheodorEmanuelsson/oil_storage-detector) -> using yolov5 and the Airbus Oil Storage Detection dataset
-
 - [oil_well_detector](https://github.com/dzubke/oil_well_detector) -> detect oil wells in the Bakken oil field based on satellite imagery
 
 
@@ -1629,10 +1627,6 @@ Regression in remote sensing involves predicting continuous variables such as wi
 Clouds are a major issue in remote sensing images as they can obscure the underlying ground features. This hinders the accuracy and effectiveness of remote sensing analysis, as the obscured regions cannot be properly interpreted. In order to address this challenge, various techniques have been developed to detect clouds in remote sensing images. Both classical algorithms and deep learning approaches can be employed for cloud detection. Classical algorithms typically use threshold-based techniques and hand-crafted features to identify cloud pixels. However, these techniques can be limited in their accuracy and are sensitive to changes in image appearance and cloud structure. On the other hand, deep learning approaches leverage the power of convolutional neural networks (CNNs) to accurately detect clouds in remote sensing images. These models are trained on large datasets of remote sensing images, allowing them to learn and generalize the unique features and patterns of clouds. The generated cloud mask can be used to identify the cloud pixels and eliminate them from further analysis or, alternatively, cloud inpainting techniques can be used to fill in the gaps left by the clouds. This approach helps to improve the accuracy of remote sensing analysis and provides a clearer view of the ground, even in the presence of clouds. Image adapted from the paper 'Refined UNet Lite: End-to-End Lightweight Network for Edge-precise Cloud Detection'
 
 - [CloudSEN12](https://github.com/cloudsen12) -> Sentinel 2 cloud dataset with a [varierty of models here](https://github.com/cloudsen12/models)
-
-- From [this article on sentinelhub](https://medium.com/sentinel-hub/improving-cloud-detection-with-machine-learning-c09dc5d7cf13) there are three popular classical algorithms that detects thresholds in multiple bands in order to identify clouds. In the same article they propose using semantic segmentation combined with a CNN for a cloud classifier (excellent review paper [here](https://arxiv.org/pdf/1704.06857.pdf)), but state that this requires too much compute resources.
-
-- [This article](https://www.mdpi.com/2072-4292/8/8/666) compares a number of ML algorithms, random forests, stochastic gradient descent, support vector machines, Bayesian method.
 
 - [Segmentation of Clouds in Satellite Images Using Deep Learning](https://medium.com/swlh/segmentation-of-clouds-in-satellite-images-using-deep-learning-a9f56e0aa83d) -> semantic segmentation using a Unet on the Kaggle 38-Cloud dataset
 
@@ -2047,7 +2041,7 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [CMCDNet](https://github.com/CAU-HE/CMCDNet) -> CMCDNet: Cross-modal change detection flood extraction based on convolutional neural network
 
-- [Dsfer-Net](https://github.com/ShizhenChang/Dsfer-Net) -> A Deep Supervision and Feature Retrieval Network for Bitemporal Change Detection Using Modern Hopfield Network [paper](https://arxiv.org/pdf/2304.01101)
+- [Dsfer-Net](https://github.com/ShizhenChang/Dsfer-Net) -> A Deep Supervision and Feature Retrieval Network for Bitemporal Change Detection Using Modern Hopfield Network
 
 - [Simple-Remote-Sensing-Change-Detection-Framework](https://github.com/walking-shadow/Simple-Remote-Sensing-Change-Detection-Framework) -> Simplified implementation of remote sensing change detection based on Pytorch
 
@@ -2136,7 +2130,7 @@ The analysis of time series observations in remote sensing data has numerous app
 
 - [graph-dynamic-earth-net](https://github.com/corentin-dfg/graph-dynamic-earth-net) -> Graph Dynamic Earth Net: Spatio-Temporal Graph Benchmark for Satellite Image Time Series [paper](https://ieeexplore.ieee.org/abstract/document/10281458)
 
-- [multi-stage-convSTAR-network](https://github.com/0zgur0/multi-stage-convSTAR-network) -> Pytorch implementation for hierarchical time series classification with multi-stage convolutional RNN [paper](https://arxiv.org/pdf/2102.08820.pdf)
+- [multi-stage-convSTAR-network](https://github.com/0zgur0/multi-stage-convSTAR-network) -> Pytorch implementation for hierarchical time series classification with multi-stage convolutional RNN
 
 - [RESTORE-DiT](https://github.com/SQD1/RESTORE-DiT) -> Reliable satellite image time series reconstruction by multimodal sequential diffusion transformer
 
@@ -2365,8 +2359,6 @@ Remote sensing images are used in disaster response to identify and assess damag
 - [shackleton](https://github.com/avanetten/shackleton) -> leverages remote sensing imagery and machine learning techniques to provide insights into various transportation and evacuation scenarios in an interactive dashboard that conducts real-time computation
 
 - [AI Helps Detect Disaster Damage From Satellite Imagery](https://developer.nvidia.com/blog/ai-helps-detect-disaster-damage-from-satellite-imagery/) -> NVIDIA blog post
-
-- [Turkey-Earthquake-2023-Building-Change-Detection](https://github.com/blackshark-ai/Turkey-Earthquake-2023-Building-Change-Detection) -> The repository contains building footprints derived from Maxar open data imagery and change detection results by blackshark-ai
 
 - [MS4D-Net-Building-Damage-Assessment](https://github.com/YJ-He/MS4D-Net-Building-Damage-Assessment) -> MS4D-Net: Multitask-Based Semi-Supervised Semantic Segmentation Framework with Perturbed Dual Mean Teachers for Building Damage Assessment from High-Resolution Remote Sensing Imagery
 
@@ -2837,8 +2829,6 @@ Generative networks (e.g. GANs and diffusion models) aim to generate new, synthe
 - [Satellite Image Augmetation with GANs](https://github.com/Oarowolo11/11785-Project) -> Image Augmentation for Satellite Images
 
 - [opt2sar-cyclegan](https://github.com/zzh811/opt2sar-cyclegan) -> Research on SAR image generation method based on non-homologous data
-
-- [sentinel-cgan](https://github.com/softwaremill/sentinel-cgan) -> code for [article](https://blog.softwaremill.com/generative-adversarial-networks-in-satellite-image-datasets-augmentation-b7045d2f51ab): Generative adversarial networks in satellite image datasets augmentation
 
 - [Shoreline_Extraction_GAN](https://github.com/mlundine/Shoreline_Extraction_GAN) -> Shoreline extraction via generative adversarial networks, prediction via LSTMs
 
@@ -3465,12 +3455,6 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 
 - [Intro to depth from stereo](https://github.com/IntelRealSense/librealsense/blob/master/doc/depth-from-stereo.md)
 
-- Map terrain from stereo images to produce a digital elevation model (DEM) -> high resolution & paired images required, typically 0.3 m, e.g. [Worldview](https://dg-cms-uploads-production.s3.amazonaws.com/uploads/document/file/37/DG-WV2ELEVACCRCY-WP.pdf)
-
-- Process of creating a DEM [here](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLI-B1/327/2016/isprs-archives-XLI-B1-327-2016.pdf)
-
-- [ArcGIS can generate DEMs from stereo images](http://pro.arcgis.com/en/pro-app/help/data/imagery/generate-elevation-data-using-the-dems-wizard.htm)
-
 - [S2P](https://github.com/centreborelli/s2p) -> S2P is a Python library and command line tool that implements a stereo pipeline which produces elevation models from images taken by high resolution optical satellites such as Pléiades, WorldView, QuickBird, Spot or Ikonos.
 
 - [Predict the fate of glaciers](https://github.com/geohackweek/glacierhack_2018)
@@ -3786,8 +3770,6 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 - [EarthGPT](https://github.com/wivizhang/EarthGPT) -> A Universal Multi-modal Large Language Model for Multi-sensor Image Comprehension in Remote Sensing Domain
 
 - [H2RSVLM](https://github.com/opendatalab/H2RSVLM) -> Towards Helpful and Honest Remote Sensing Large Vision Language Model
-
-- [LLMs & FMs in Smart Agriculture](https://arxiv.org/pdf/2308.06668) -> Large Language Models and Foundation Models in Smart Agriculture: Basics, Opportunities, and Challenges
 
 - [LHRS-Bot](https://github.com/NJU-LHRS/LHRS-Bot) -> Empowering Remote Sensing with VGI-Enhanced Large Multimodal Language Model
 
