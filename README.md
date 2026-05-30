@@ -405,6 +405,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [OmniWaterMask-training](https://github.com/DPIRD-DMA/OmniWaterMask-training) -> Training code for the deep learning model used in [OmniWaterMask](https://github.com/DPIRD-DMA/OmniWaterMask) - a Python library for detecting water bodies in satellite and aerial imagery.
 
+- [utae-water-segmentation](https://github.com/khlaifiabilel/utae-water-segmentation) -> UTAE-PAPS model for water/land segmentation using Sentinel-1 and Sentinel-2 data with IBM Granite flood detection dataset
+
 ### Segmentation - Fire, smoke & burn areas
 
 - [SatelliteVu-AWS-Disaster-Response-Hackathon](https://github.com/SatelliteVu/SatelliteVu-AWS-Disaster-Response-Hackathon) -> fire spread prediction using classical ML & deep learning
@@ -470,6 +472,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [MCD-Net](https://github.com/Lyra-alpha/MCD-Net) -> a lightweight deep learning framework for optical-only moraine segmentation
 
+- [landslides_segmentation](https://github.com/Eb3ls/landslides_segmentation) -> super-resolution and segmentation of multispectral Sentinel-2 satellite imagery, applied to landslide monitoring in Italian municipalities.
+
 ### Segmentation - methane
 
 - [Methane-detection-from-hyperspectral-imagery](https://github.com/satish1901/Methane-detection-from-hyperspectral-imagery) -> Deep Remote Sensing Methods for Methane Detection in Overhead Hyperspectral Imagery
@@ -510,6 +514,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [asos](https://gitlab.jsc.fz-juelich.de/kiste/asos) -> Recognizing protected and anthropogenic patterns in landscapes using interpretable machine learning and satellite imagery
 
 - [SinkSAM](https://github.com/osherr1996/SinkSAM) -> Knowledge-Driven Self-Supervised Sinkhole Segmentation Using Topographic Priors and Segment Anything Model
+
+- [SENSE](https://github.com/kailaisun/GenAI4Urban-Energy/) -> Satellite-based ENergy Synthesis for Sustainable Environment
 
 ### Segmentation - Roads & sidewalks
 Extracting roads is challenging due to the occlusions caused by other objects and the complex traffic environment
@@ -2059,6 +2065,10 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [mason_cd](https://github.com/blaz-r/mason_cd) -> Make Some Noise: Unsupervised Remote Sensing Change Detection Using Latent Space Perturbations
 
+- [Noise2Map](https://github.com/alishibli97/noise2map) ->  End-to-End Diffusion Model for Semantic Segmentation and Change Detection
+
+- [MBCTD](https://github.com/abdelpy/MBCTD) -> Multi-Label Building Change Type Detection
+
 #
 ## Time series
 
@@ -2242,6 +2252,16 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 
 - [YieldSAT](https://yieldsat.github.io/) -> A Multimodal Benchmark Dataset for High-Resolution Crop Yield Prediction.
 
+- [Yield Africa](https://github.com/yoadjei/yield-africa) -> Do Foundation Model Embeddings Improve Cross-Country Crop Yield Generalisation? A Leave-One-Country-Out Evaluation in Sub-Saharan Africa
+
+- [Transfer Learning for Cross-Regional Soybean Yield Prediction](https://github.com/rssiuiuc/soybean-yield-domain-shift)
+
+- [Sentinel-Yield](https://github.com/sanatladkat/sentinel-yield) -> Unsupervised agricultural anomaly detection using satellite foundation model embeddings.
+
+- [Cotton-Yield-Forecast-2025](https://github.com/Feanor1021/Cotton-Yield-Forecast-2025) -> LSTM for Multi-Source Cotton Yield Estimation and Temporal Interpretability Across Agro-Ecological Regions in Türkiye
+
+- [OmniTerra: Global Yield Intelligence](https://github.com/Aghawafaabbass/OmniTerra-Global-M) -> a Multi-Modal Spatio-Temporal Transformer (ST-Transformer) framework for global crop yield intelligence and carbon sequestration modelling
+
 #
 ## Wealth and economic activity
 
@@ -2292,6 +2312,8 @@ The traditional approach of collecting economic data through ground surveys is a
 - [Deep_Learning_Satellite_Imd](https://github.com/surendran-berkeley/Deep_Learning_Satellite_Imd) -> Using Deep Learning on Satellite Imagery to predict population and economic indicators
 
 - [GRAM](https://github.com/DS4H-GIS/GRAM) -> a test-time adaptation framework for robust slum segmentation
+
+- [poverty-cnn](https://github.com/OnurHaniffa/poverty-cnn) -> predicting village-level asset wealth across 23 African countries from publicly-available Landsat satellite imagery
 
 #
 ## Disaster response
@@ -2491,6 +2513,8 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 - [OpenSR Test](https://github.com/ESAOpenSR/opensr-test) -> A comprehensive benchmark for real-world Sentinel-2 imagery super-resolution
 
 - [Sentinel-5P Super-Resolution](https://github.com/hyamomar/Sentinel-5P-Super-Resolution/tree/main) -> Supervised and Self-Supervised Deep Learning for Hyperspectral Image Super-Resolution.
+
+- [SFG-SwinSR](https://github.com/aminurhossain/SFG-SwinSR) -> Spatial-Frequency Gated Swin Transformer for Remote Sensing Single-Image Super-Resolution
 
 ### Super-resolution - Miscellaneous
 
@@ -2764,6 +2788,8 @@ Data fusion is a technique for combining information from different sources such
 - [AnytimeFormer](https://github.com/tangkai-RS/AnytimeFormer) -> Fusing irregular and asynchronous SAR-optical time series to reconstruct reflectance at any given time
 
 - [Rose](https://github.com/bailubin/Rose) -> Integrating remote sensing with OpenStreetMap data for comprehensive scene understanding through multi-modal self-supervised learning
+
+- [MDAF-Net](https://github.com/MSFLabX/MDAF-Net) -> a multimodal fusion framework designed for joint classification of hyperspectral imaging (HSI) and LiDAR data
 
 #
 ## Generative networks
@@ -3428,6 +3454,8 @@ Image registration is the process of registering one or more images onto another
 
 - [Multi-Step-Deformable-Registration](https://github.com/mpapadomanolaki/Multi-Step-Deformable-Registration) -> Unsupervised Multi-Step Deformable Registration of Remote Sensing Imagery based on Deep Learning
 
+- [A deep learning approach to satellite image time series coregistration through alignment of road networks](https://github.com/afperezm/multi-temporal-coregistration)
+
 #
 ## Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF
 
@@ -3840,9 +3868,9 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 
 - [Wildfire Forecasting](https://asucicilab.github.io/wildfire-forecasting/) -> Adapting Video Foundation Models for Spatiotemporal Wildfire Forecasting via Cross-Modal Progressive Fine-Tuning
 
-## Geospatial Agents
+- [Remote Sensing Foundation Model for the Netherlands](https://github.com/PaulVermeeren/Remote-sensing-foundation-model-for-the-Netherlands)
 
-- [OpenEarthAgent](https://github.com/mbzuai-oryx/OpenEarthAgent) -> a unified framework for tool-augmented geospatial agents
+- [EarthShift](https://github.com/kerner-lab/earthshift) -> Benchmarking the robustness of geospatial foundation models (GFMs) to realistic distribution shifts in Earth Observation
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
