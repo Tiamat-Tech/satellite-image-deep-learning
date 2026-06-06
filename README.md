@@ -2256,6 +2256,8 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 
 - [OmniTerra: Global Yield Intelligence](https://github.com/Aghawafaabbass/OmniTerra-Global-M) -> a Multi-Modal Spatio-Temporal Transformer (ST-Transformer) framework for global crop yield intelligence and carbon sequestration modelling
 
+- [HarvestSight](https://github.com/Alex0420W/HarvestSight) -> Geospatial-AI corn yield forecasting for the U.S. Corn Belt. Fine-tuning NASA/IBM Prithvi-EO-2.0-600M with LoRA, fused with weather/soil/drought features and calibrated uncertainty cones.
+
 #
 ## Wealth and economic activity
 
