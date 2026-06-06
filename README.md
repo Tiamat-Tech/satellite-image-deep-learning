@@ -1015,7 +1015,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [PGNet](https://github.com/Fhujinwu/PGNet) -> PGNet: Positioning Guidance Network for Semantic Segmentation of Very-High-Resolution Remote Sensing Images [paper](https://www.mdpi.com/2072-4292/14/17/4219)
 
-- [ASD](https://github.com/Jingtao-Li-CVer/ASD) -> Anomaly Segmentation for High-Resolution Remote Sensing Images Based on Pixel Descriptors (AAAI2023) [download link](https://ojs.aaai.org/index.php/AAAI/article/view/25563/25335)
+- [ASD](https://github.com/Jingtao-Li-CVer/ASD) -> Anomaly Segmentation for High-Resolution Remote Sensing Images Based on Pixel Descriptors.
 
 - [u-nets-implementation](https://github.com/Aadit3003/u-nets-implementation) -> Semantic-Segmentation-with-U-Nets
 
