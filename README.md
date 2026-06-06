@@ -3854,5 +3854,7 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 
 - [EarthShift](https://github.com/kerner-lab/earthshift) -> Benchmarking the robustness of geospatial foundation models (GFMs) to realistic distribution shifts in Earth Observation
 
+- [Floro](https://github.com/jorlrodriguezg/floro) -> A Multimodal Geospatial Foundation Model for Ecological Remote Sensing Across Sensors and Scales, from Sentinel 2 to UAV.
+
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
