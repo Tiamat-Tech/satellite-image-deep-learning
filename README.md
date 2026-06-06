@@ -3451,6 +3451,8 @@ Image registration is the process of registering one or more images onto another
 
 Measure surface contours & locate 3D points in space from 2D images. NeRF stands for Neural Radiance Fields and is the term used in deep learning communities to describe a model that generates views of complex 3D scenes based on a partial set of 2D images
 
+- [Sat3DGen](https://github.com/qianmingduowan/Sat3DGen) -> [ICLR 2026] Comprehensive Street-Level 3D Scene Generation from Single Satellite Image. Given a single satellite image, Sat3DGen generates a street-view-renderable NeRF-based 3D scene with strong geometry, enabling large-area meshing, multi-camera surround-view video, semantic-map-to-3D, and single-image DSM estimation. [Demo](https://huggingface.co/spaces/qian43/Sat3DGen) | [Code](https://github.com/qianmingduowan/Sat3DGen)
+
 - [Wikipedia DEM article](https://en.wikipedia.org/wiki/Digital_elevation_model) and [phase correlation](https://en.wikipedia.org/wiki/Phase_correlation) article
 
 - [Intro to depth from stereo](https://github.com/IntelRealSense/librealsense/blob/master/doc/depth-from-stereo.md)
