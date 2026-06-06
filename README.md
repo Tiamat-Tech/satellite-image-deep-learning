@@ -3791,6 +3791,8 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 
 - [ForestChat](https://github.com/JamesBrockUoB/ForestChat) -> Adapting Vision-Language Models for Interactive Forest Change Analysis.
 
+- [MTRefSeg](https://github.com/LiBingyu01/MTRefSeg) -> MTRefSeg-R1 is a bi-temporal vision-language segmentation framework where the model receives two temporal images (T1, T2) plus a natural-language instruction and predicts the changed region. Built on the SegEarth-R1 codebase, it extends instruction-following change referring segmentation to remote-sensing, aerial, and normal-scene views.
+
 #
 ## Foundational models
 
