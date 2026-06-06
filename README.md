@@ -1756,6 +1756,8 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 
 - [self-supervised-cloud-detection](https://github.com/eudesyawog/self-supervised-cloud-detection) -> Self-supervised representation learning for cloud detection using Sentinel-2 images
 
+- [AGFlow-model](https://github.com/AGFlow-model/AGFlow-model) -> A timestamp-conditioned spatiotemporal flow-matching framework for asynchronous Sentinel-1 SAR / Sentinel-2 optical fusion, targeting cloud removal, missing-frame reconstruction, and anytime optical image generation
+
 #
 ## Change detection
 
