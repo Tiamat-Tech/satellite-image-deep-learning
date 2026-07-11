@@ -49,8 +49,6 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [EuroSat-Satellite-CNN-and-ResNet](https://github.com/Rumeysakeskin/EuroSat-Satellite-CNN-and-ResNet) -> Classifying custom image datasets by creating Convolutional Neural Networks and Residual Networks from scratch with PyTorch
 
-- [Detecting Informal Settlements from Satellite Imagery using fine-tuning of ResNet-50 classifier](https://blog.goodaudience.com/detecting-informal-settlements-using-satellite-imagery-and-convolutional-neural-networks-d571a819bf44) with [repo](https://github.com/dymaxionlabs/ap-latam)
-
 -  [Land-Cover-Classification-using-Sentinel-2-Dataset](https://github.com/raoofnaushad/Land-Cover-Classification-using-Sentinel-2-Dataset) -> [well written Medium article](https://raoofnaushad7.medium.com/applying-deep-learning-on-satellite-imagery-classification-5f2588b932c1) accompanying this repo but using the EuroSAT dataset
 
 - [Slums mapping from pretrained CNN network](https://github.com/deepankverma/slums_detection) on VHR (Pleiades: 0.5m) and MR (Sentinel: 10m) imagery
@@ -605,7 +603,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [Fine–Grained Extraction of Road Networks via Joint Learning of Connectivity and Segmentation](https://github.com/YXu556/RoadExtraction) -> uses SpaceNet 3 dataset
 
-- [Satellite-Image-Road-Segmentation](https://github.com/aavek/Satellite-Image-Road-Segmentation) -> Graph Reasoned Multi-Scale Road Segmentation in Remote Sensing Imagery [paper](https://ieeexplore.ieee.org/document/10281660)
+- [Satellite-Image-Road-Segmentation](https://github.com/aavek/Satellite-Image-Road-Segmentation) -> Graph Reasoned Multi-Scale Road Segmentation in Remote Sensing Imagery
 
 - [PathFinder](https://github.com/Oraegbuayomide10/PathFinder) -> A Foundation Model for Road Mapping in Support of United Nations Humanitarian Affairs
 
@@ -1017,7 +1015,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [SSG2](https://github.com/feevos/ssg2) -> A New Modelling Paradigm for Semantic Segmentation
 
-- [DBFNet](https://github.com/Luffy03/DBFNet) -> Deep Bilateral Filtering Network for Point-Supervised Semantic Segmentation in Remote Sensing Images [IEEE](https://ieeexplore.ieee.org/document/9961229) paper
+- [DBFNet](https://github.com/Luffy03/DBFNet) -> Deep Bilateral Filtering Network for Point-Supervised Semantic Segmentation in Remote Sensing Images
 
 - [PGNet](https://github.com/Fhujinwu/PGNet) -> PGNet: Positioning Guidance Network for Semantic Segmentation of Very-High-Resolution Remote Sensing Images [paper](https://www.mdpi.com/2072-4292/14/17/4219)
 
@@ -2055,7 +2053,7 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [Change_Detection_FCNs](https://github.com/DLoboT/Change_Detection_FCNs) -> Deforestation Detection with Fully Convolutional Networks in the Amazon Forest from Landsat-8 and Sentinel-2 Images
 
-- [HyperNet](https://github.com/meiqihu/HyperNet) -> HyperNet: Self-Supervised Hyperspectral SpatialSpectral Feature Understanding Network for Hyperspectral Change Detection [paper](https://ieeexplore.ieee.org/document/9934933)
+- [HyperNet](https://github.com/meiqihu/HyperNet) -> HyperNet: Self-Supervised Hyperspectral SpatialSpectral Feature Understanding Network for Hyperspectral Change Detection
 
 - [CMCDNet](https://github.com/CAU-HE/CMCDNet) -> CMCDNet: Cross-modal change detection flood extraction based on convolutional neural network
 
@@ -2067,9 +2065,9 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [sits-change-detection](https://github.com/adebowaledaniel/sits-change-detection) -> Detecting Land Cover Changes Between Satellite Image Time Series By Exploiting Self-Supervised Representation Learning Capabilities
 
-- [USSFC-Net](https://github.com/SUST-reynole/USSFC-Net) -> Ultralightweight Spatial–Spectral Feature Cooperation Network for Change Detection in Remote Sensing Images [paper](https://ieeexplore.ieee.org/document/10081023)
+- [USSFC-Net](https://github.com/SUST-reynole/USSFC-Net) -> Ultralightweight Spatial–Spectral Feature Cooperation Network for Change Detection in Remote Sensing Images
 
-- [VcT_Remote_Sensing_Change_Detection](https://github.com/Event-AHU/VcT_Remote_Sensing_Change_Detection) -> VcT: Visual change Transformer for Remote Sensing Image Change Detection [IEEE](https://ieeexplore.ieee.org/document/10294300)
+- [VcT_Remote_Sensing_Change_Detection](https://github.com/Event-AHU/VcT_Remote_Sensing_Change_Detection) -> VcT: Visual change Transformer for Remote Sensing Image Change Detection
 
 - [HabitAlp 2.0](https://github.com/hkristen/habitalp_2) -> Habitat and Land Cover Change Detection in Alpine Protected Areas: A Comparison of AI Architectures
 
@@ -2655,7 +2653,7 @@ Pansharpening is a data fusion method that merges the high spatial detail from a
 
 - [Sentinel-2 Band Pan-Sharpening](https://github.com/purijs/Sentinel-2-Superresolution)
 
-- [UAPN](https://github.com/keviner1/UAPN) -> Official PyTorch implementation of our TGRS paper: Deep Adaptive Pansharpening via Uncertainty-aware Image Fusion.[Paper link](https://ieeexplore.ieee.org/document/10106462)
+- [UAPN](https://github.com/keviner1/UAPN) -> Official PyTorch implementation of our TGRS paper: Deep Adaptive Pansharpening via Uncertainty-aware Image Fusion.
 
 - [pansharpening-toolkit](https://github.com/Osman-Geomatics93/pansharpening-toolkit-) -> Pansharpening toolkit with classic and deep learning methods
 
