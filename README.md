@@ -478,6 +478,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [landslides_segmentation](https://github.com/Eb3ls/landslides_segmentation) -> super-resolution and segmentation of multispectral Sentinel-2 satellite imagery, applied to landslide monitoring in Italian municipalities.
 
+- [GlacierCastAI](https://github.com/Arun-K-Ram/GlacierCastAI) -> forecasts glacier boundary retreat from Landsat time series, ERA5 climate data and Copernicus DEM terrain features using a multimodal ConvLSTM model
+
 ### Segmentation - methane
 
 - [Methane-detection-from-hyperspectral-imagery](https://github.com/satish1901/Methane-detection-from-hyperspectral-imagery) -> Deep Remote Sensing Methods for Methane Detection in Overhead Hyperspectral Imagery
@@ -2888,6 +2890,8 @@ Generative networks (e.g. GANs and diffusion models) aim to generate new, synthe
 Autoencoders are a type of neural network that aim to simplify the representation of input data by compressing it into a lower dimensional form. This is achieved through a two-step process of encoding and decoding, where the encoding step compresses the data into a lower dimensional representation, and the decoding step restores the data back to its original form. The goal of this process is to reduce the data's dimensionality, making it easier to store and process, while retaining the essential information. Dimensionality reduction, as the name suggests, refers to the process of reducing the number of dimensions in a dataset. This can be achieved through various techniques such as principal component analysis (PCA) or singular value decomposition (SVD). Autoencoders are one type of neural network that can be used for dimensionality reduction. In the field of computer vision, image embeddings are vector representations of images that capture the most important features of the image. These embeddings can then be used to perform similarity searches, where images are compared based on their features to find similar images. This process can be used in a variety of applications, such as image retrieval, where images are searched based on certain criteria like color, texture, or shape. It can also be used to identify duplicate images in a dataset. [Image source](https://www.mdpi.com/2072-4292/11/7/864)
 
 - [Awesome-Geospatial-Embeddings](https://github.com/hfangcat/Awesome-Geospatial-Embeddings) -> A curated list of papers that focus on how to represent Earth data in embedding space
+
+- [Towards Geospatial Embeddings — ISPRS 2026 Tutorial](https://github.com/konstantinklemmer/isprs26-embeddings-tutorial) -> hands-on notebooks for using SatCLIP and AlphaEarth embeddings and producing training-free MOSAIKS features
 
 - [LEt-SNE](https://github.com/meghshukla/LEt-SNE) -> Dimensionality Reduction and visualization technique that compensates for the curse of dimensionality
 
