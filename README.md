@@ -1441,6 +1441,8 @@ A variety of techniques can be used to count animals, including object detection
 
 - [cownter_strike](https://github.com/IssamLaradji/cownter_strike) -> counting cows, located with point-annotations, two models: CSRNet (a density-based method) & LCFCN (a detection-based method)
 
+- [deepCattleCount](https://github.com/leoniehodel/deepCattleCount) -> CSRNet-based cattle counting in very high-resolution satellite imagery to study land use and policy impacts in the Brazilian Amazon
+
 - [CNN-Mosquito-Detection](https://github.com/sriramelango/CNN-Mosquito-Detection) -> determining the locations of potentially dangerous breeding grounds, compared YOLOv4, YOLOR & YOLOv5
 
 - [Borowicz_etal_Spacewhale](https://github.com/lynch-lab/Borowicz_etal_Spacewhale) -> locate whales using ResNet
@@ -2939,6 +2941,8 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
 - [satclip](https://github.com/microsoft/satclip) -> A Global, General-Purpose Geographic Location Encoder from Microsoft
 
+- [OSMGraphCLIP](https://github.com/d-michail/osmgraphclip) -> A CLIP-style contrastive model that learns global location representations from OpenStreetMap graphs and geographic coordinates
+
 - [Astronaut Photography Localization & Iterative Coregistration](https://earthloc-and-earthmatch.github.io/)
 
 - [rs-cbir](https://github.com/amirafshari/rs-cbir) -> Satellite Image Vector Database and Multimodal Search using fine-tuned ResNet50 on AID dataset
@@ -3346,6 +3350,8 @@ Supervised deep learning techniques typically require a huge number of annotated
 - [whales](https://github.com/microsoft/whales) -> An active learning pipeline for identifying whales in high-resolution satellite imagery, by Microsoft
 
 - [AL4EO](https://github.com/Romain3Ch216/AL4EO) -> a QGIS plug-in to run Active Learning techniques on Earth observation data
+
+- [AL4FM](https://github.com/mburges-cvl/ICCV_AL4FM) -> Active Learning Meets Foundation Models: a real-time, SAM-assisted annotation framework for object detection in remote sensing imagery
 
 #
 ## Federated learning
