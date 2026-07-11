@@ -213,6 +213,8 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
 - [cnn-land-cover-eco](https://github.com/DGalexander/cnn-land-cover-eco) -> Multi-stage semantic segmentation of land cover in the Peak District using high-resolution RGB aerial imagery
 
+- [LALE](https://github.com/caglarmert/LALE) -> a lightweight hybrid ConvMixer-transformer architecture for efficient land-cover segmentation in remote sensing imagery
+
 ### Segmentation - Vegetation, deforestation, crops & field boundaries
 
 Note that deforestation detection may be treated as a segmentation task or a change detection task
@@ -352,6 +354,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [Houston_flooding](https://github.com/Lichtphyz/Houston_flooding) -> labeling each pixel as either flooded or not using data from Hurricane Harvey. Dataset consisted of pre and post flood images, and a ground truth floodwater mask was created using unsupervised clustering (with DBScan) of image pixels with human cluster verification/adjustment
 
 - [ml4floods](https://github.com/spaceml-org/ml4floods) -> An ecosystem of data, models and code pipelines to tackle flooding with ML
+
+- [floodmaps](https://github.com/davdma/floodmaps) -> an end-to-end pipeline and segmentation models for flood-water detection using Sentinel-1 SAR and Sentinel-2 multispectral imagery
 
 - [1st place solution for STAC Overflow: Map Floodwater from Radar Imagery hosted by Microsoft AI for Earth](https://github.com/sweetlhare/STAC-Overflow) -> combines Unet with Catboostclassifier, taking their maxima, not the average
 
@@ -1099,6 +1103,8 @@ Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For d
 
 - [mmrotate](https://github.com/open-mmlab/mmrotate) -> Rotated Object Detection Benchmark, with pretrained models and function for inferencing on very large images
 
+- [OrientedDet](https://github.com/DL4EO/oriented-det) -> a lightweight PyTorch framework for rotated object detection in aerial and satellite imagery, with oriented models, geometry operations and DOTA support
+
 - [OBBDetection](https://github.com/jbwang1997/OBBDetection) -> an oriented object detection library, which is based on MMdetection
 
 - [rotate-yolov3](https://github.com/ming71/rotate-yolov3) -> Rotation object detection implemented with yolov3. Also see [yolov3-polygon](https://github.com/ming71/yolov3-polygon)
@@ -1562,6 +1568,10 @@ When the object count, but not its shape is required, U-net can be used to treat
 - [centroid-unet](https://github.com/gicait/centroid-unet) -> Centroid-UNet is deep neural network model to detect centroids from satellite images
 
 - [cownter_strike](https://github.com/IssamLaradji/cownter_strike) -> counting cows, located with point-annotations, two models: CSRNet (a density-based method) & LCFCN (a detection-based method)
+
+- [Bayesian-Car-Counting](https://github.com/albinjal/Bayesian-Car-Counting) -> car counting in overhead imagery using Bayesian loss with point supervision on the COWC dataset
+
+- [TreeMatch](https://github.com/dgominski/treematch) -> tree density estimation from satellite imagery using optimal transport and mixed strong and weak point supervision; includes the multi-sensor TinyTrees benchmark
 
 - [DO-U-Net](https://github.com/ToyahJade/DO-U-Net) -> an effective approach for when the size of an object needs to be known, as well as the number of objects in the image, initially created to segment and count Internally Displaced People (IDP) camps in Afghanistan
 
@@ -2101,6 +2111,8 @@ The analysis of time series observations in remote sensing data has numerous app
 - [spaceweather](https://github.com/sarttiso/spaceweather) -> predicting geomagnetic storms from satellite measurements of the solar wind and solar corona, uses LSTMs
 
 - [ConvTimeLSTM](https://github.com/jdiaz4302/ConvTimeLSTM) -> Extension of ConvLSTM and Time-LSTM for irregularly spaced images, appropriate for Remote Sensing
+
+- [ConvLSTM](https://github.com/Zewen-Shang/ConvLstm/tree/master) -> a PyTorch implementation of convolutional LSTM networks for precipitation nowcasting
 
 - [dl-time-series](https://github.com/NexGenMap/dl-time-series) -> Deep Learning algorithms applied to characterization of Remote Sensing time-series
 
@@ -3845,6 +3857,8 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 - [Galileo](https://github.com/nasaharvest/galileo) -> Learning Global and Local Features in Pretrained Remote Sensing Models, from Nasa Harvest
 
 - [AnySat](https://github.com/gastruc/AnySat) -> One Earth Observation Model for Many Resolutions, Scales, and Modalities
+
+- [UniverSat](https://github.com/gastruc/UniverSat) -> a resolution- and modality-agnostic transformer trained across diverse Earth observation sensors, spatial resolutions and temporal inputs
 
 - [SMARTIES](https://gsumbul.github.io/SMARTIES/) -> Spectrum-Aware Multi-Sensor Auto-Encoder for Remote Sensing Images
 
