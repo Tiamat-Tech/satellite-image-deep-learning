@@ -916,8 +916,6 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [aerial-segmentation](https://github.com/alpemek/aerial-segmentation) -> Learning Aerial Image Segmentation from Online Maps
 
-- [IterativeSegmentation](https://github.com/gaudetcj/IterativeSegmentation) -> Recurrent Neural Networks to Correct Satellite Image Classification Maps
-
 - [Detectron2 FPN + PointRend Model for amazing Satellite Image Segmentation](https://affine.medium.com/detectron2-fpn-pointrend-model-for-amazing-satellite-image-segmentation-183456063e15) -> 15% increase in accuracy when compared to the U-Net model
 
 - [HybridSN](https://github.com/purbayankar/HybridSN-pytorch) -> Exploring 3D-2D CNN Feature Hierarchy for Hyperspectral Image Classification
