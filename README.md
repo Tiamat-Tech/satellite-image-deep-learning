@@ -46,7 +46,6 @@ Deep learning has revolutionized the analysis and interpretation of satellite an
 
 Classification is a fundamental task in remote sensing data analysis, where the goal is to assign a semantic label to each image, such as 'urban', 'forest', 'agricultural land', etc. The process of assigning labels to an image is known as image-level classification. However, in some cases, a single image might contain multiple different land cover types, such as a forest with a river running through it, or a city with both residential and commercial areas. In these cases, image-level classification becomes more complex and involves assigning multiple labels to a single image. This can be accomplished using a combination of feature extraction and machine learning algorithms to accurately identify the different land cover types. It is important to note that image-level classification should not be confused with pixel-level classification, also known as semantic segmentation. While image-level classification assigns a single label to an entire image, semantic segmentation assigns a label to each individual pixel in an image, resulting in a highly detailed and accurate representation of the land cover types in an image. Read [A brief introduction to satellite image classification with neural networks](https://medium.com/@robmarkcole/a-brief-introduction-to-satellite-image-classification-with-neural-networks-3ce28be15683)
 
-
 - [EuroSat-Satellite-CNN-and-ResNet](https://github.com/Rumeysakeskin/EuroSat-Satellite-CNN-and-ResNet) -> Classifying custom image datasets by creating Convolutional Neural Networks and Residual Networks from scratch with PyTorch
 
 -  [Land-Cover-Classification-using-Sentinel-2-Dataset](https://github.com/raoofnaushad/Land-Cover-Classification-using-Sentinel-2-Dataset) -> [well written Medium article](https://raoofnaushad7.medium.com/applying-deep-learning-on-satellite-imagery-classification-5f2588b932c1) accompanying this repo but using the EuroSAT dataset
@@ -2157,6 +2156,8 @@ The analysis of time series observations in remote sensing data has numerous app
 - [MMNet](https://github.com/YXu556/MMNet) -> Integration of Snapshot and Time Series Data for Improving SMAP Soil Moisture Downscaling
 
 - [CNN-LSTM_for_DSM](https://github.com/leizhang-geo/CNN-LSTM_for_DSM) -> A CNN-LSTM model for soil organic carbon content prediction with long time series of MODIS-based phenological variables
+
+- [S-TSViT](https://github.com/hukaiems/Spiking_Temporo-Spatial_Vision_Transformer) -> Spiking Temporo-Spatial Vision Transformer for satellite image time series analysis
 
 - [rice-irrigation-mapping-s1s2](https://github.com/microsoft/rice-irrigation-mapping-s1s2) -> Mapping rice irrigation using Sentinel-1 and Sentinel-2 data
 
